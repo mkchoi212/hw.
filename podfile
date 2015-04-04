@@ -1,0 +1,13 @@
+platform:ios, '8.0'
+
+pod 'AMScrollingNavbar'
+pod 'ASMediaFocusManager'
+pod 'Shimmer'
+pod 'FCVerticalMenu'
+pod 'SKPanoramaView'
+pod 'PBJVision'
+pod 'DBCamera'
+pod 'PopMenu'
+pod 'RQShineLabel'
+pod 'VBFPopFlatButton'
+pod 'AMWaveTransition'
