@@ -59,7 +59,7 @@
     shimmeringView.shimmering = YES;
     
     
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 4 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 3 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
         [FBShimmeringView beginAnimations:nil context:nil];
         [FBShimmeringView setAnimationDuration:1.0];
         [FBShimmeringView setAnimationTransition:UIViewAnimationTransitionNone forView:[self view] cache:YES];
@@ -76,7 +76,7 @@
         RQShineLabel *label = [[RQShineLabel alloc] initWithFrame:CGRectMake(16, 16, 320 - 32, CGRectGetHeight(self.view.bounds) - 16)];
         label.numberOfLines = 0;
         label.text = [self.textArray objectAtIndex:self.textIndex];
-        label.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:24.0];
+        label.font = [UIFont fontWithName:@"GillSans-Light" size:24.0];
         label.backgroundColor = [UIColor clearColor];
         [label sizeToFit];
         label.center = self.view.center;

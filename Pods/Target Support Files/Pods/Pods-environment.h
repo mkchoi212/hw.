@@ -6,6 +6,12 @@
 // project.
 
 
+// AKPickerView
+#define COCOAPODS_POD_AVAILABLE_AKPickerView
+#define COCOAPODS_VERSION_MAJOR_AKPickerView 0
+#define COCOAPODS_VERSION_MINOR_AKPickerView 2
+#define COCOAPODS_VERSION_PATCH_AKPickerView 4
+
 // AMScrollingNavbar
 #define COCOAPODS_POD_AVAILABLE_AMScrollingNavbar
 #define COCOAPODS_VERSION_MAJOR_AMScrollingNavbar 1
@@ -23,6 +29,12 @@
 #define COCOAPODS_VERSION_MAJOR_ASMediaFocusManager 0
 #define COCOAPODS_VERSION_MINOR_ASMediaFocusManager 3
 #define COCOAPODS_VERSION_PATCH_ASMediaFocusManager 0
+
+// CWStatusBarNotification
+#define COCOAPODS_POD_AVAILABLE_CWStatusBarNotification
+#define COCOAPODS_VERSION_MAJOR_CWStatusBarNotification 2
+#define COCOAPODS_VERSION_MINOR_CWStatusBarNotification 2
+#define COCOAPODS_VERSION_PATCH_CWStatusBarNotification 2
 
 // DBCamera
 #define COCOAPODS_POD_AVAILABLE_DBCamera
@@ -42,6 +54,12 @@
 #define COCOAPODS_VERSION_MINOR_GPUImage 1
 #define COCOAPODS_VERSION_PATCH_GPUImage 6
 
+// KNSemiModalViewController
+#define COCOAPODS_POD_AVAILABLE_KNSemiModalViewController
+#define COCOAPODS_VERSION_MAJOR_KNSemiModalViewController 0
+#define COCOAPODS_VERSION_MINOR_KNSemiModalViewController 3
+#define COCOAPODS_VERSION_PATCH_KNSemiModalViewController 0
+
 // PBJVision
 #define COCOAPODS_POD_AVAILABLE_PBJVision
 #define COCOAPODS_VERSION_MAJOR_PBJVision 0
@@ -54,11 +72,23 @@
 #define COCOAPODS_VERSION_MINOR_PopMenu 1
 #define COCOAPODS_VERSION_PATCH_PopMenu 0
 
+// RMStepsController
+#define COCOAPODS_POD_AVAILABLE_RMStepsController
+#define COCOAPODS_VERSION_MAJOR_RMStepsController 1
+#define COCOAPODS_VERSION_MINOR_RMStepsController 0
+#define COCOAPODS_VERSION_PATCH_RMStepsController 2
+
 // RQShineLabel
 #define COCOAPODS_POD_AVAILABLE_RQShineLabel
 #define COCOAPODS_VERSION_MAJOR_RQShineLabel 0
 #define COCOAPODS_VERSION_MINOR_RQShineLabel 1
 #define COCOAPODS_VERSION_PATCH_RQShineLabel 3
+
+// SACollectionViewVerticalScalingFlowLayout
+#define COCOAPODS_POD_AVAILABLE_SACollectionViewVerticalScalingFlowLayout
+#define COCOAPODS_VERSION_MAJOR_SACollectionViewVerticalScalingFlowLayout 1
+#define COCOAPODS_VERSION_MINOR_SACollectionViewVerticalScalingFlowLayout 0
+#define COCOAPODS_VERSION_PATCH_SACollectionViewVerticalScalingFlowLayout 0
 
 // SKPanoramaView
 #define COCOAPODS_POD_AVAILABLE_SKPanoramaView
@@ -71,6 +101,12 @@
 #define COCOAPODS_VERSION_MAJOR_Shimmer 1
 #define COCOAPODS_VERSION_MINOR_Shimmer 0
 #define COCOAPODS_VERSION_PATCH_Shimmer 2
+
+// TOMSMorphingLabel
+#define COCOAPODS_POD_AVAILABLE_TOMSMorphingLabel
+#define COCOAPODS_VERSION_MAJOR_TOMSMorphingLabel 0
+#define COCOAPODS_VERSION_MINOR_TOMSMorphingLabel 5
+#define COCOAPODS_VERSION_PATCH_TOMSMorphingLabel 1
 
 // VBFPopFlatButton
 #define COCOAPODS_POD_AVAILABLE_VBFPopFlatButton

@@ -194,6 +194,20 @@
     return self.items;
 }
 
+/**
+ *  通过目标的参数，获取一个grid布局
+ *
+ *  @param perRowItemCount   每行有多少列
+ *  @param perColumItemCount 每列有多少行
+ *  @param itemWidth         gridItem的宽度
+ *  @param itemHeight        gridItem的高度
+ *  @param paddingX          gridItem之间的X轴间隔
+ *  @param paddingY          gridItem之间的Y轴间隔
+ *  @param index             某个gridItem所在的index序号
+ *  @param page              某个gridItem所在的页码
+ *
+ *  @return 返回一个已经处理好的gridItem frame
+ */
 - (CGRect)getFrameWithItemCount:(NSInteger)itemCount
                 perRowItemCount:(NSInteger)perRowItemCount
               perColumItemCount:(NSInteger)perColumItemCount

@@ -489,7 +489,7 @@
     NSString *textToShare = @"check out this recording";
     NSString *filePath = _recordingFilePath;
     NSArray *itemsToShare = @[textToShare, filePath];
-    NSLog([NSString stringWithFormat:@"%@", filePath]);
+ //   NSLog([NSString stringWithFormat:@"%@", filePath]);
     UIActivityViewController *activityVC = [[UIActivityViewController alloc] initWithActivityItems:itemsToShare applicationActivities:nil];
     activityVC.excludedActivityTypes = @[UIActivityTypePrint, UIActivityTypeAssignToContact, UIActivityTypeAddToReadingList, UIActivityTypePostToFlickr, UIActivityTypePostToWeibo, UIActivityTypeSaveToCameraRoll];
     [self presentViewController:activityVC animated:YES completion:nil];

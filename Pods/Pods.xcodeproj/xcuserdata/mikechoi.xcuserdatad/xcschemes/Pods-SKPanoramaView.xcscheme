@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4FFDB9F73C4C4D2D1E597605"
+               BlueprintIdentifier = "F9D176B90C91A839FAE88CC4"
                BuildableName = "libPods-SKPanoramaView.a"
                BlueprintName = "Pods-SKPanoramaView"
                ReferencedContainer = "container:Pods.xcodeproj">

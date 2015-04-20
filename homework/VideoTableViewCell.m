@@ -12,10 +12,11 @@
 
 - (void)awakeFromNib {
 
-    self.circleView.alpha = 0.5;
     self.circleView.layer.cornerRadius = 29;
-    //self.dueDate.backgroundColor = [UIColor blueColor];
-}
+    [self.videoPlayer setDelegate:self];
+    [self.videoPlayer setEndAction:AWEasyVideoPlayerEndActionLoop];
+    [self setVideoPlayer:self.videoPlayer];
+ }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
@@ -26,7 +27,15 @@
 {
     [super layoutSubviews];
     [self.contentView layoutIfNeeded];
-    //self.descriptionLabel.preferredMaxLayoutWidth = CGRectGetWidth(self.frame);
+   
 }
+#pragma mark - AWEasyVideoPlayerDelegate
+
+-(void)videoPlayer:(AWEasyVideoPlayer *)videoPlayer encounteredError:(NSError *)error {
+    
+    NSLog(@"Encountered error: %@",[error localizedDescription]);
+    
+}
+
 
 @end

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="voiceCell" selectionStyle="none" indentationWidth="10" reuseIdentifier="voiceCell" rowHeight="121" id="De9-i8-icR" customClass="VoiceTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="349" height="121"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="De9-i8-icR" id="UEg-Vb-luq">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Important school stuff about important matters" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uoT-GO-rgk">
+                        <rect key="frame" x="76" y="13" width="359" height="60"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="19"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bvT-Ms-peL">
+                        <rect key="frame" x="9" y="9" width="58" height="58"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLl-Q9-Tby">
+                                <rect key="frame" x="0.0" y="32" width="58" height="21"/>
+                                <fontDescription key="fontDescription" name="GillSans-Light" family="Gill Sans" pointSize="16"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tca-V6-t79">
+                                <rect key="frame" x="0.0" y="0.0" width="58" height="42"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="32"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.35294117650000001" green="0.83921568629999999" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3:43 PM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="af5-tk-xLn">
+                        <rect key="frame" x="9" y="66" width="58" height="13"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="9"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uoT-GO-rgk" firstAttribute="top" secondItem="UEg-Vb-luq" secondAttribute="topMargin" constant="2" id="T61-sL-4O8"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="uoT-GO-rgk" secondAttribute="bottom" constant="70" id="Wud-ly-rMK"/>
+                    <constraint firstItem="uoT-GO-rgk" firstAttribute="leading" secondItem="UEg-Vb-luq" secondAttribute="leadingMargin" constant="68" id="ZTa-Qv-Fsa"/>
+                    <constraint firstItem="uoT-GO-rgk" firstAttribute="trailing" secondItem="UEg-Vb-luq" secondAttribute="trailingMargin" constant="-1" id="ipa-ke-dqh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="circleView" destination="bvT-Ms-peL" id="9PP-U9-B2F"/>
+                <outlet property="dayLabel" destination="tca-V6-t79" id="rZH-F2-ixr"/>
+                <outlet property="descriptionLabel" destination="uoT-GO-rgk" id="chU-04-fdx"/>
+                <outlet property="monthLabel" destination="aLl-Q9-Tby" id="nkU-9f-ebZ"/>
+                <outlet property="timeLabel" destination="af5-tk-xLn" id="bCf-Bo-dgt"/>
+            </connections>
+            <point key="canvasLocation" x="539.5" y="286.5"/>
+        </tableViewCell>
+    </objects>
+</document>

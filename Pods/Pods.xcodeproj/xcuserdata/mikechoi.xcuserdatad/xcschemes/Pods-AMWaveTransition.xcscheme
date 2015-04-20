@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9EF73214C70D4D7764E69940"
+               BlueprintIdentifier = "C3781288AF2AD1E6C1E0C768"
                BuildableName = "libPods-AMWaveTransition.a"
                BlueprintName = "Pods-AMWaveTransition"
                ReferencedContainer = "container:Pods.xcodeproj">

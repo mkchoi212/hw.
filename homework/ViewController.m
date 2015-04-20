@@ -7,24 +7,28 @@
 //
 
 #import "ViewController.h"
-#import "AMWaveTransition.h"
 #import "VBFPopFlatButton.h"
 #import "PopMenu.h"
 #import "DBCameraViewController.h"
 #import "DBCameraContainerViewController.h"
 #import "PBJViewController.h"
-#import "VideoTableViewCell.h"
+#import "StepsModalViewController.h"
+#import "SACollectionViewVerticalScalingCell.h"
+#import "SACollectionViewVerticalScalingFlowLayout.h"
 
-@interface ViewController () <UITableViewDelegate, UITableViewDataSource, UINavigationControllerDelegate, DBCameraCollectionControllerDelegate>
+@interface ViewController () <UICollectionViewDataSource, UINavigationControllerDelegate, DBCameraCollectionControllerDelegate>
 
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) VBFPopFlatButton *quickAddButton;
 @property (nonatomic, strong) PopMenu *popMenu;
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 @property BOOL pressed_ornah;
 
 @end
 
 @implementation ViewController
+
+static NSString *const kCellIdentifier = @"Cell";
+
 
 - (void)viewDidLoad
 {
@@ -34,18 +38,24 @@
     [self.navigationController.navigationBar setBarTintColor:[UIColor whiteColor]];
     [self.navigationController.navigationBar setTranslucent:NO];
     [self.view setBackgroundColor:[UIColor clearColor]];
-    [self.tableView setBackgroundColor:[UIColor clearColor]];
     [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
     
     [self setTitle:@"Home"];
     
-    self.tableView.estimatedRowHeight = 300.0;
-    self.tableView.rowHeight = UITableViewAutomaticDimension;
     
+    [self.collectionView registerClass:[SACollectionViewVerticalScalingCell class] forCellWithReuseIdentifier:kCellIdentifier];
+    self.collectionView.dataSource = self;
+    SACollectionViewVerticalScalingFlowLayout *layout = [[SACollectionViewVerticalScalingFlowLayout alloc] init];
+    layout.scaleMode = SACollectionViewVerticalScalingFlowLayoutScaleModeHard;
+    layout.alphaMode = SACollectionViewVerticalScalingFlowLayoutScaleModeHard;
+    self.collectionView.collectionViewLayout = layout;
+
     //scrolling navbar
     [self setUseSuperview:YES];
-    [self followScrollView:self.tableView withDelay:30];
+    [self followScrollView:self.collectionView withDelay:30];
     [self setShouldScrollWhenContentFits:YES];
+    
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -68,35 +78,22 @@
     //vertical quick add menu itself
     self.quickMenu.delegate = self;
     self.quickMenu.liveBlurBackgroundStyle = self.navigationController.navigationBar.barStyle;
+    
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    return 5;
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return 30;
 }
 
-- (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    VideoTableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:@"videoCell"];
-    if(!cell){
-        [tableView registerNib:[UINib nibWithNibName:@"VideoTableViewCell" bundle:nil] forCellReuseIdentifier:@"videoCell"];
-        cell = [tableView dequeueReusableCellWithIdentifier:@"videoCell"];
-    }
-
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    SACollectionViewVerticalScalingCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:kCellIdentifier forIndexPath:indexPath];
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:cell.bounds];
+    NSInteger number = indexPath.row % 7 + 1;
+    imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"0%@", @(number)]];
+    [cell.containerView addSubview:imageView];
     return cell;
 }
-
-- (id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController
-                                  animationControllerForOperation:(UINavigationControllerOperation)operation
-                                               fromViewController:(UIViewController*)fromVC
-                                                 toViewController:(UIViewController*)toVC
-{
-    if (operation != UINavigationControllerOperationNone) {
-        return [AMWaveTransition transitionWithOperation:operation andTransitionType:AMWaveTransitionTypeBounce];
-    }
-    return nil;
-}
-
 
 - (void)quickAddPressed{
     if(self.pressed_ornah == FALSE){
@@ -142,6 +139,10 @@
     
     UINavigationController *navigationController = [self.storyboard instantiateViewControllerWithIdentifier:@"nav"];
 
+        if([selectedItem.title compare:@"Text"] == FALSE){
+            StepsModalViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"steps"];
+            [self presentViewController:vc animated:YES completion:nil];
+        }
         if([selectedItem.title compare:@"Draw"] == FALSE){
             UIViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"draw"];
             navigationController = [[UINavigationController alloc]initWithRootViewController:vc];
@@ -191,8 +192,6 @@
 #pragma makr Scroll Nav Bar delegate
 - (BOOL)scrollViewShouldScrollToTop:(UIScrollView *)scrollView
 {
-    // This enables the user to scroll down the navbar by tapping the status bar.
-    //	[self performSelector:@selector(showNavbar) withObject:nil afterDelay:0.1];  // Use a delay if needed (pre iOS8)
     [self showNavbar];
     return YES;
 }

@@ -1,5 +1,11 @@
 platform:ios, '8.0'
 
+pod 'SACollectionViewVerticalScalingFlowLayout'
+pod 'CWStatusBarNotification'
+pod 'AKPickerView'
+pod 'KNSemiModalViewController'
+pod 'TOMSMorphingLabel'
+pod 'RMStepsController'
 pod 'AMScrollingNavbar'
 pod 'ASMediaFocusManager'
 pod 'Shimmer'

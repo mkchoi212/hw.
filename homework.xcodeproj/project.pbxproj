@@ -8,7 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		BBCE510511AB8E7C70AD886C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27518DAD4C17C0E6905E825F /* libPods.a */; };
+		CA2461BC1AD0DB4C00B38F88 /* PictureTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2461BA1AD0DB4C00B38F88 /* PictureTableViewCell.m */; };
+		CA2461BD1AD0DB4C00B38F88 /* PictureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA2461BB1AD0DB4C00B38F88 /* PictureTableViewCell.xib */; };
 		CA3302BD1ABE48C100B99301 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3302BC1ABE48C100B99301 /* MainNavigationController.m */; };
+		CA52DEE91AD4CD2E00F39F4D /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA52DEE81AD4CD2E00F39F4D /* CategoryViewController.m */; };
+		CA52DEF31AD4EC2D00F39F4D /* Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = CA52DEF01AD4EC2D00F39F4D /* Categories.m */; };
+		CA52DF111AD4EC6800F39F4D /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA52DF101AD4EC6800F39F4D /* TimeViewController.m */; };
+		CA676AB11AD9EF6E00852A5E /* ZFModalTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = CA676AB01AD9EF6E00852A5E /* ZFModalTransitionAnimator.m */; };
+		CA676ABF1AD9F5DC00852A5E /* BigColorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA676ABC1AD9F5DC00852A5E /* BigColorTableViewCell.m */; };
+		CA676AC01AD9F5DC00852A5E /* UIColor+FlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = CA676ABE1AD9F5DC00852A5E /* UIColor+FlatColors.m */; };
+		CA676AC31AD9F64300852A5E /* ColorsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA676AC21AD9F64300852A5E /* ColorsTableViewController.m */; };
+		CA6771021AD381BB001F11A3 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6770FD1AD381BB001F11A3 /* JVFloatLabeledTextField.m */; };
+		CA6771031AD381BB001F11A3 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6770FF1AD381BB001F11A3 /* JVFloatLabeledTextView.m */; };
+		CA6771041AD381BB001F11A3 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6771011AD381BB001F11A3 /* NSString+TextDirectionality.m */; };
 		CA6BF9E11AB146B3005DCCEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6BF9E01AB146B3005DCCEF /* main.m */; };
 		CA6BF9E41AB146B3005DCCEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6BF9E31AB146B3005DCCEF /* AppDelegate.m */; };
 		CA6BF9E71AB146B3005DCCEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6BF9E61AB146B3005DCCEF /* ViewController.m */; };
@@ -16,11 +28,31 @@
 		CA6BF9EC1AB146B3005DCCEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6BF9EB1AB146B3005DCCEF /* Images.xcassets */; };
 		CA6BF9EF1AB146B3005DCCEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA6BF9ED1AB146B3005DCCEF /* LaunchScreen.xib */; };
 		CA6BF9FB1AB146B4005DCCEF /* homeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6BF9FA1AB146B4005DCCEF /* homeworkTests.m */; };
+		CA6E1D641AD874D9006A097A /* ReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6E1D631AD874D9006A097A /* ReminderViewController.m */; };
 		CA7FCB5E1AC075990015EAEF /* VideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7FCB5C1AC075990015EAEF /* VideoTableViewCell.m */; };
 		CA7FCB5F1AC075990015EAEF /* VideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA7FCB5D1AC075990015EAEF /* VideoTableViewCell.xib */; };
 		CA7FCB631AC0776E0015EAEF /* AWEasyVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7FCB621AC0776E0015EAEF /* AWEasyVideoPlayer.m */; };
 		CAB648601AC21F0C00608E72 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB6485F1AC21F0C00608E72 /* InfoViewController.m */; };
+		CACABF661AD244F200580AD4 /* JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACABF5B1AD244F200580AD4 /* JTSImageViewController.m */; };
+		CACABF671AD244F200580AD4 /* JTSImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CACABF5D1AD244F200580AD4 /* JTSImageInfo.m */; };
+		CACABF681AD244F200580AD4 /* JTSSimpleImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = CACABF5F1AD244F200580AD4 /* JTSSimpleImageDownloader.m */; };
+		CACABF691AD244F200580AD4 /* JTSAnimatedGIFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CACABF611AD244F200580AD4 /* JTSAnimatedGIFUtility.m */; };
+		CACABF6A1AD244F200580AD4 /* UIImage+JTSImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = CACABF631AD244F200580AD4 /* UIImage+JTSImageEffects.m */; };
+		CACABF6B1AD244F200580AD4 /* UIApplication+JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACABF651AD244F200580AD4 /* UIApplication+JTSImageViewController.m */; };
+		CACABF6E1AD24CA200580AD4 /* StepsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACABF6D1AD24CA200580AD4 /* StepsViewController.m */; };
+		CACABF711AD24CAC00580AD4 /* StepsModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACABF701AD24CAC00580AD4 /* StepsModalViewController.m */; };
+		CACABF741AD24D2400580AD4 /* StepsNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACABF731AD24D2400580AD4 /* StepsNavViewController.m */; };
 		CACBE7C31ABE3C76006F8B3A /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACBE7C21ABE3C76006F8B3A /* IntroViewController.m */; };
+		CAD042651AD725F600985AE1 /* THDateDay.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD042601AD725F600985AE1 /* THDateDay.m */; };
+		CAD042661AD725F600985AE1 /* THDateDay.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD042611AD725F600985AE1 /* THDateDay.xib */; };
+		CAD042671AD725F600985AE1 /* THDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD042631AD725F600985AE1 /* THDatePickerViewController.m */; };
+		CAD042681AD725F600985AE1 /* THDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD042641AD725F600985AE1 /* THDatePickerViewController.xib */; };
+		CAD0426B1AD726CB00985AE1 /* KPTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD0426A1AD726CB00985AE1 /* KPTimePicker.m */; };
+		CADFDE2D1ACFB802002F7218 /* VoiceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CADFDE2B1ACFB802002F7218 /* VoiceTableViewCell.m */; };
+		CADFDE2E1ACFB802002F7218 /* VoiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CADFDE2C1ACFB802002F7218 /* VoiceTableViewCell.xib */; };
+		CADFDE371ACFB9EC002F7218 /* SCWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = CADFDE321ACFB9EC002F7218 /* SCWaveformView.m */; };
+		CADFDE381ACFB9EC002F7218 /* SYWaveformPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CADFDE341ACFB9EC002F7218 /* SYWaveformPlayerView.m */; };
+		CADFDE3E1AD09946002F7218 /* I Need A Dollar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CADFDE3D1AD09946002F7218 /* I Need A Dollar.mp3 */; };
 		CAEC66141ABBA3CB00405094 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEC66131ABBA3CB00405094 /* DrawViewController.m */; };
 		CAEC66171ABBA4FC00405094 /* JCDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEC66161ABBA4FC00405094 /* JCDrawView.m */; };
 		CAEC661B1ABBA62000405094 /* SphereMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEC661A1ABBA62000405094 /* SphereMenu.m */; };
@@ -29,6 +61,10 @@
 		CAEC663F1ABCE38600405094 /* PBJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEC663A1ABCE38600405094 /* PBJViewController.m */; };
 		CAEC66401ABCE38600405094 /* PBJFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEC663C1ABCE38600405094 /* PBJFocusView.m */; };
 		CAEC66411ABCE38600405094 /* PBJStrobeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEC663E1ABCE38600405094 /* PBJStrobeView.m */; };
+		CAFDEC3D1ADCE29600E44D79 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFDEC361ADCE29600E44D79 /* TPKeyboardAvoidingCollectionView.m */; };
+		CAFDEC3E1ADCE29600E44D79 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFDEC381ADCE29600E44D79 /* TPKeyboardAvoidingScrollView.m */; };
+		CAFDEC3F1ADCE29600E44D79 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFDEC3A1ADCE29600E44D79 /* TPKeyboardAvoidingTableView.m */; };
+		CAFDEC401ADCE29600E44D79 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFDEC3C1ADCE29600E44D79 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +81,31 @@
 		27518DAD4C17C0E6905E825F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		59CFB994012ADAA424F9A9A4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5B370583057F68812FA95BAE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CA2461B91AD0DB4C00B38F88 /* PictureTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureTableViewCell.h; sourceTree = "<group>"; };
+		CA2461BA1AD0DB4C00B38F88 /* PictureTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureTableViewCell.m; sourceTree = "<group>"; };
+		CA2461BB1AD0DB4C00B38F88 /* PictureTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PictureTableViewCell.xib; sourceTree = "<group>"; };
 		CA3302BB1ABE48C100B99301 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
 		CA3302BC1ABE48C100B99301 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		CA52DEE71AD4CD2E00F39F4D /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		CA52DEE81AD4CD2E00F39F4D /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		CA52DEEF1AD4EC2D00F39F4D /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
+		CA52DEF01AD4EC2D00F39F4D /* Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Categories.m; sourceTree = "<group>"; };
+		CA52DF0F1AD4EC6800F39F4D /* TimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeViewController.h; sourceTree = "<group>"; };
+		CA52DF101AD4EC6800F39F4D /* TimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeViewController.m; sourceTree = "<group>"; };
+		CA676AAF1AD9EF6E00852A5E /* ZFModalTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFModalTransitionAnimator.h; sourceTree = "<group>"; };
+		CA676AB01AD9EF6E00852A5E /* ZFModalTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFModalTransitionAnimator.m; sourceTree = "<group>"; };
+		CA676ABB1AD9F5DC00852A5E /* BigColorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigColorTableViewCell.h; sourceTree = "<group>"; };
+		CA676ABC1AD9F5DC00852A5E /* BigColorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigColorTableViewCell.m; sourceTree = "<group>"; };
+		CA676ABD1AD9F5DC00852A5E /* UIColor+FlatColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatColors.h"; sourceTree = "<group>"; };
+		CA676ABE1AD9F5DC00852A5E /* UIColor+FlatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatColors.m"; sourceTree = "<group>"; };
+		CA676AC11AD9F64300852A5E /* ColorsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorsTableViewController.h; sourceTree = "<group>"; };
+		CA676AC21AD9F64300852A5E /* ColorsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorsTableViewController.m; sourceTree = "<group>"; };
+		CA6770FC1AD381BB001F11A3 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		CA6770FD1AD381BB001F11A3 /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		CA6770FE1AD381BB001F11A3 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		CA6770FF1AD381BB001F11A3 /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextView.m; sourceTree = "<group>"; };
+		CA6771001AD381BB001F11A3 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		CA6771011AD381BB001F11A3 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TextDirectionality.m"; sourceTree = "<group>"; };
 		CA6BF9DB1AB146B3005DCCEF /* homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6BF9DF1AB146B3005DCCEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA6BF9E01AB146B3005DCCEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +119,8 @@
 		CA6BF9F41AB146B4005DCCEF /* homeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6BF9F91AB146B4005DCCEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA6BF9FA1AB146B4005DCCEF /* homeworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeworkTests.m; sourceTree = "<group>"; };
+		CA6E1D621AD874D9006A097A /* ReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderViewController.h; sourceTree = "<group>"; };
+		CA6E1D631AD874D9006A097A /* ReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderViewController.m; sourceTree = "<group>"; };
 		CA7FCB5B1AC075990015EAEF /* VideoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTableViewCell.h; sourceTree = "<group>"; };
 		CA7FCB5C1AC075990015EAEF /* VideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewCell.m; sourceTree = "<group>"; };
 		CA7FCB5D1AC075990015EAEF /* VideoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoTableViewCell.xib; sourceTree = "<group>"; };
@@ -67,8 +128,42 @@
 		CA7FCB621AC0776E0015EAEF /* AWEasyVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWEasyVideoPlayer.m; sourceTree = "<group>"; };
 		CAB6485E1AC21F0C00608E72 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		CAB6485F1AC21F0C00608E72 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		CACABF5A1AD244F200580AD4 /* JTSImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSImageViewController.h; sourceTree = "<group>"; };
+		CACABF5B1AD244F200580AD4 /* JTSImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSImageViewController.m; sourceTree = "<group>"; };
+		CACABF5C1AD244F200580AD4 /* JTSImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSImageInfo.h; sourceTree = "<group>"; };
+		CACABF5D1AD244F200580AD4 /* JTSImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSImageInfo.m; sourceTree = "<group>"; };
+		CACABF5E1AD244F200580AD4 /* JTSSimpleImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSSimpleImageDownloader.h; sourceTree = "<group>"; };
+		CACABF5F1AD244F200580AD4 /* JTSSimpleImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSSimpleImageDownloader.m; sourceTree = "<group>"; };
+		CACABF601AD244F200580AD4 /* JTSAnimatedGIFUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSAnimatedGIFUtility.h; sourceTree = "<group>"; };
+		CACABF611AD244F200580AD4 /* JTSAnimatedGIFUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSAnimatedGIFUtility.m; sourceTree = "<group>"; };
+		CACABF621AD244F200580AD4 /* UIImage+JTSImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JTSImageEffects.h"; sourceTree = "<group>"; };
+		CACABF631AD244F200580AD4 /* UIImage+JTSImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JTSImageEffects.m"; sourceTree = "<group>"; };
+		CACABF641AD244F200580AD4 /* UIApplication+JTSImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+JTSImageViewController.h"; sourceTree = "<group>"; };
+		CACABF651AD244F200580AD4 /* UIApplication+JTSImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+JTSImageViewController.m"; sourceTree = "<group>"; };
+		CACABF6C1AD24CA200580AD4 /* StepsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepsViewController.h; sourceTree = "<group>"; };
+		CACABF6D1AD24CA200580AD4 /* StepsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepsViewController.m; sourceTree = "<group>"; };
+		CACABF6F1AD24CAC00580AD4 /* StepsModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepsModalViewController.h; sourceTree = "<group>"; };
+		CACABF701AD24CAC00580AD4 /* StepsModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepsModalViewController.m; sourceTree = "<group>"; };
+		CACABF721AD24D2400580AD4 /* StepsNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepsNavViewController.h; sourceTree = "<group>"; };
+		CACABF731AD24D2400580AD4 /* StepsNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepsNavViewController.m; sourceTree = "<group>"; };
 		CACBE7C11ABE3C76006F8B3A /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
 		CACBE7C21ABE3C76006F8B3A /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		CAD0425F1AD725F600985AE1 /* THDateDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THDateDay.h; sourceTree = "<group>"; };
+		CAD042601AD725F600985AE1 /* THDateDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THDateDay.m; sourceTree = "<group>"; };
+		CAD042611AD725F600985AE1 /* THDateDay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THDateDay.xib; sourceTree = "<group>"; };
+		CAD042621AD725F600985AE1 /* THDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THDatePickerViewController.h; sourceTree = "<group>"; };
+		CAD042631AD725F600985AE1 /* THDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THDatePickerViewController.m; sourceTree = "<group>"; };
+		CAD042641AD725F600985AE1 /* THDatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THDatePickerViewController.xib; sourceTree = "<group>"; };
+		CAD042691AD726CB00985AE1 /* KPTimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPTimePicker.h; sourceTree = "<group>"; };
+		CAD0426A1AD726CB00985AE1 /* KPTimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPTimePicker.m; sourceTree = "<group>"; };
+		CADFDE2A1ACFB802002F7218 /* VoiceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceTableViewCell.h; sourceTree = "<group>"; };
+		CADFDE2B1ACFB802002F7218 /* VoiceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceTableViewCell.m; sourceTree = "<group>"; };
+		CADFDE2C1ACFB802002F7218 /* VoiceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoiceTableViewCell.xib; sourceTree = "<group>"; };
+		CADFDE311ACFB9EC002F7218 /* SCWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCWaveformView.h; sourceTree = "<group>"; };
+		CADFDE321ACFB9EC002F7218 /* SCWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCWaveformView.m; sourceTree = "<group>"; };
+		CADFDE331ACFB9EC002F7218 /* SYWaveformPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYWaveformPlayerView.h; sourceTree = "<group>"; };
+		CADFDE341ACFB9EC002F7218 /* SYWaveformPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYWaveformPlayerView.m; sourceTree = "<group>"; };
+		CADFDE3D1AD09946002F7218 /* I Need A Dollar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I Need A Dollar.mp3"; sourceTree = "<group>"; };
 		CAEC66121ABBA3CB00405094 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
 		CAEC66131ABBA3CB00405094 /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
 		CAEC66151ABBA4FC00405094 /* JCDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCDrawView.h; sourceTree = "<group>"; };
@@ -85,6 +180,14 @@
 		CAEC663C1ABCE38600405094 /* PBJFocusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBJFocusView.m; sourceTree = "<group>"; };
 		CAEC663D1ABCE38600405094 /* PBJStrobeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBJStrobeView.h; sourceTree = "<group>"; };
 		CAEC663E1ABCE38600405094 /* PBJStrobeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBJStrobeView.m; sourceTree = "<group>"; };
+		CAFDEC351ADCE29600E44D79 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		CAFDEC361ADCE29600E44D79 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		CAFDEC371ADCE29600E44D79 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		CAFDEC381ADCE29600E44D79 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		CAFDEC391ADCE29600E44D79 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		CAFDEC3A1ADCE29600E44D79 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		CAFDEC3B1ADCE29600E44D79 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		CAFDEC3C1ADCE29600E44D79 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +226,44 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CA2461BE1AD0ECB200B38F88 /* pictureCell */ = {
+			isa = PBXGroup;
+			children = (
+				CACABF471AD23D8900580AD4 /* Source */,
+				CAEC66151ABBA4FC00405094 /* JCDrawView.h */,
+				CAEC66161ABBA4FC00405094 /* JCDrawView.m */,
+				CA2461B91AD0DB4C00B38F88 /* PictureTableViewCell.h */,
+				CA2461BA1AD0DB4C00B38F88 /* PictureTableViewCell.m */,
+				CA2461BB1AD0DB4C00B38F88 /* PictureTableViewCell.xib */,
+			);
+			name = pictureCell;
+			sourceTree = "<group>";
+		};
+		CA52DEEA1AD4CD3200F39F4D /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				CAD0425E1AD6C05700985AE1 /* Time & Date */,
+				CA6E1D611AD7976F006A097A /* Title */,
+				CA676ABA1AD9F21700852A5E /* Category */,
+				CA6E1D621AD874D9006A097A /* ReminderViewController.h */,
+				CA6E1D631AD874D9006A097A /* ReminderViewController.m */,
+			);
+			name = Steps;
+			sourceTree = "<group>";
+		};
+		CA676ABA1AD9F21700852A5E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CA52DEE71AD4CD2E00F39F4D /* CategoryViewController.h */,
+				CA52DEE81AD4CD2E00F39F4D /* CategoryViewController.m */,
+				CA676AC11AD9F64300852A5E /* ColorsTableViewController.h */,
+				CA676AC21AD9F64300852A5E /* ColorsTableViewController.m */,
+				CA676ABB1AD9F5DC00852A5E /* BigColorTableViewCell.h */,
+				CA676ABC1AD9F5DC00852A5E /* BigColorTableViewCell.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		CA6BF9D21AB146B3005DCCEF = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +297,11 @@
 				CA6BF9E61AB146B3005DCCEF /* ViewController.m */,
 				CAB6485E1AC21F0C00608E72 /* InfoViewController.h */,
 				CAB6485F1AC21F0C00608E72 /* InfoViewController.m */,
+				CA52DEEA1AD4CD3200F39F4D /* Steps */,
+				CACABF721AD24D2400580AD4 /* StepsNavViewController.h */,
+				CACABF731AD24D2400580AD4 /* StepsNavViewController.m */,
+				CACABF6F1AD24CAC00580AD4 /* StepsModalViewController.h */,
+				CACABF701AD24CAC00580AD4 /* StepsModalViewController.m */,
 				CAEC66421ABCE38A00405094 /* Video */,
 				CAEC66211ABBC3D400405094 /* Voice */,
 				CAEC66181ABBA50200405094 /* Draw */,
@@ -170,6 +316,24 @@
 		CA6BF9DE1AB146B3005DCCEF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CAFDEC351ADCE29600E44D79 /* TPKeyboardAvoidingCollectionView.h */,
+				CAFDEC361ADCE29600E44D79 /* TPKeyboardAvoidingCollectionView.m */,
+				CAFDEC371ADCE29600E44D79 /* TPKeyboardAvoidingScrollView.h */,
+				CAFDEC381ADCE29600E44D79 /* TPKeyboardAvoidingScrollView.m */,
+				CAFDEC391ADCE29600E44D79 /* TPKeyboardAvoidingTableView.h */,
+				CAFDEC3A1ADCE29600E44D79 /* TPKeyboardAvoidingTableView.m */,
+				CAFDEC3B1ADCE29600E44D79 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				CAFDEC3C1ADCE29600E44D79 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				CA676ABD1AD9F5DC00852A5E /* UIColor+FlatColors.h */,
+				CA676ABE1AD9F5DC00852A5E /* UIColor+FlatColors.m */,
+				CA676AAF1AD9EF6E00852A5E /* ZFModalTransitionAnimator.h */,
+				CA676AB01AD9EF6E00852A5E /* ZFModalTransitionAnimator.m */,
+				CA6770FC1AD381BB001F11A3 /* JVFloatLabeledTextField.h */,
+				CA6770FD1AD381BB001F11A3 /* JVFloatLabeledTextField.m */,
+				CA6770FE1AD381BB001F11A3 /* JVFloatLabeledTextView.h */,
+				CA6770FF1AD381BB001F11A3 /* JVFloatLabeledTextView.m */,
+				CA6771001AD381BB001F11A3 /* NSString+TextDirectionality.h */,
+				CA6771011AD381BB001F11A3 /* NSString+TextDirectionality.m */,
 				CAEC661C1ABBA62600405094 /* Sphere Menu */,
 				CA6BF9DF1AB146B3005DCCEF /* Info.plist */,
 				CA6BF9E01AB146B3005DCCEF /* main.m */,
@@ -194,6 +358,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CA6E1D611AD7976F006A097A /* Title */ = {
+			isa = PBXGroup;
+			children = (
+				CACABF6C1AD24CA200580AD4 /* StepsViewController.h */,
+				CACABF6D1AD24CA200580AD4 /* StepsViewController.m */,
+			);
+			name = Title;
+			sourceTree = "<group>";
+		};
 		CA7FCB601AC075A80015EAEF /* Video Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,11 +379,64 @@
 			name = "Video Cell";
 			sourceTree = "<group>";
 		};
+		CACABF471AD23D8900580AD4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CACABF5A1AD244F200580AD4 /* JTSImageViewController.h */,
+				CACABF5B1AD244F200580AD4 /* JTSImageViewController.m */,
+				CACABF5C1AD244F200580AD4 /* JTSImageInfo.h */,
+				CACABF5D1AD244F200580AD4 /* JTSImageInfo.m */,
+				CACABF5E1AD244F200580AD4 /* JTSSimpleImageDownloader.h */,
+				CACABF5F1AD244F200580AD4 /* JTSSimpleImageDownloader.m */,
+				CACABF601AD244F200580AD4 /* JTSAnimatedGIFUtility.h */,
+				CACABF611AD244F200580AD4 /* JTSAnimatedGIFUtility.m */,
+				CACABF621AD244F200580AD4 /* UIImage+JTSImageEffects.h */,
+				CACABF631AD244F200580AD4 /* UIImage+JTSImageEffects.m */,
+				CACABF641AD244F200580AD4 /* UIApplication+JTSImageViewController.h */,
+				CACABF651AD244F200580AD4 /* UIApplication+JTSImageViewController.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		CAD0425E1AD6C05700985AE1 /* Time & Date */ = {
+			isa = PBXGroup;
+			children = (
+				CA52DEEF1AD4EC2D00F39F4D /* Categories.h */,
+				CA52DEF01AD4EC2D00F39F4D /* Categories.m */,
+				CA52DF0F1AD4EC6800F39F4D /* TimeViewController.h */,
+				CA52DF101AD4EC6800F39F4D /* TimeViewController.m */,
+				CAD042691AD726CB00985AE1 /* KPTimePicker.h */,
+				CAD0426A1AD726CB00985AE1 /* KPTimePicker.m */,
+				CAD0425F1AD725F600985AE1 /* THDateDay.h */,
+				CAD042601AD725F600985AE1 /* THDateDay.m */,
+				CAD042611AD725F600985AE1 /* THDateDay.xib */,
+				CAD042621AD725F600985AE1 /* THDatePickerViewController.h */,
+				CAD042631AD725F600985AE1 /* THDatePickerViewController.m */,
+				CAD042641AD725F600985AE1 /* THDatePickerViewController.xib */,
+			);
+			name = "Time & Date";
+			sourceTree = "<group>";
+		};
+		CADFDE391ACFB9F2002F7218 /* Voice Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CADFDE3D1AD09946002F7218 /* I Need A Dollar.mp3 */,
+				CADFDE311ACFB9EC002F7218 /* SCWaveformView.h */,
+				CADFDE321ACFB9EC002F7218 /* SCWaveformView.m */,
+				CADFDE331ACFB9EC002F7218 /* SYWaveformPlayerView.h */,
+				CADFDE341ACFB9EC002F7218 /* SYWaveformPlayerView.m */,
+				CAEC66221ABBC3E600405094 /* IQAudioRecorderController.h */,
+				CADFDE2A1ACFB802002F7218 /* VoiceTableViewCell.h */,
+				CADFDE2B1ACFB802002F7218 /* VoiceTableViewCell.m */,
+				CADFDE2C1ACFB802002F7218 /* VoiceTableViewCell.xib */,
+			);
+			name = "Voice Cell";
+			sourceTree = "<group>";
+		};
 		CAEC66181ABBA50200405094 /* Draw */ = {
 			isa = PBXGroup;
 			children = (
-				CAEC66151ABBA4FC00405094 /* JCDrawView.h */,
-				CAEC66161ABBA4FC00405094 /* JCDrawView.m */,
+				CA2461BE1AD0ECB200B38F88 /* pictureCell */,
 				CAEC66121ABBA3CB00405094 /* DrawViewController.h */,
 				CAEC66131ABBA3CB00405094 /* DrawViewController.m */,
 			);
@@ -229,7 +455,7 @@
 		CAEC66211ABBC3D400405094 /* Voice */ = {
 			isa = PBXGroup;
 			children = (
-				CAEC66221ABBC3E600405094 /* IQAudioRecorderController.h */,
+				CADFDE391ACFB9F2002F7218 /* Voice Cell */,
 				CAEC66231ABBC3E600405094 /* IQAudioRecorderController.m */,
 				CAEC661E1ABBC3CF00405094 /* SCSiriWaveformView.h */,
 				CAEC661F1ABBC3CF00405094 /* SCSiriWaveformView.m */,
@@ -333,9 +559,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA2461BD1AD0DB4C00B38F88 /* PictureTableViewCell.xib in Resources */,
+				CADFDE2E1ACFB802002F7218 /* VoiceTableViewCell.xib in Resources */,
 				CA6BF9EA1AB146B3005DCCEF /* Main.storyboard in Resources */,
 				CA7FCB5F1AC075990015EAEF /* VideoTableViewCell.xib in Resources */,
 				CA6BF9EF1AB146B3005DCCEF /* LaunchScreen.xib in Resources */,
+				CAD042681AD725F600985AE1 /* THDatePickerViewController.xib in Resources */,
+				CADFDE3E1AD09946002F7218 /* I Need A Dollar.mp3 in Resources */,
+				CAD042661AD725F600985AE1 /* THDateDay.xib in Resources */,
 				CA6BF9EC1AB146B3005DCCEF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,22 +618,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA676AC01AD9F5DC00852A5E /* UIColor+FlatColors.m in Sources */,
 				CAEC66141ABBA3CB00405094 /* DrawViewController.m in Sources */,
+				CACABF671AD244F200580AD4 /* JTSImageInfo.m in Sources */,
+				CACABF6A1AD244F200580AD4 /* UIImage+JTSImageEffects.m in Sources */,
+				CACABF6E1AD24CA200580AD4 /* StepsViewController.m in Sources */,
+				CA6771041AD381BB001F11A3 /* NSString+TextDirectionality.m in Sources */,
+				CAFDEC3E1ADCE29600E44D79 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				CAEC661B1ABBA62000405094 /* SphereMenu.m in Sources */,
 				CAEC66171ABBA4FC00405094 /* JCDrawView.m in Sources */,
 				CA3302BD1ABE48C100B99301 /* MainNavigationController.m in Sources */,
 				CAEC663F1ABCE38600405094 /* PBJViewController.m in Sources */,
+				CA676AB11AD9EF6E00852A5E /* ZFModalTransitionAnimator.m in Sources */,
+				CACABF711AD24CAC00580AD4 /* StepsModalViewController.m in Sources */,
 				CA6BF9E71AB146B3005DCCEF /* ViewController.m in Sources */,
 				CA7FCB631AC0776E0015EAEF /* AWEasyVideoPlayer.m in Sources */,
+				CACABF691AD244F200580AD4 /* JTSAnimatedGIFUtility.m in Sources */,
 				CAEC66411ABCE38600405094 /* PBJStrobeView.m in Sources */,
 				CA7FCB5E1AC075990015EAEF /* VideoTableViewCell.m in Sources */,
+				CACABF741AD24D2400580AD4 /* StepsNavViewController.m in Sources */,
+				CADFDE371ACFB9EC002F7218 /* SCWaveformView.m in Sources */,
 				CAEC66241ABBC3E600405094 /* IQAudioRecorderController.m in Sources */,
+				CACABF681AD244F200580AD4 /* JTSSimpleImageDownloader.m in Sources */,
+				CA6771021AD381BB001F11A3 /* JVFloatLabeledTextField.m in Sources */,
 				CAB648601AC21F0C00608E72 /* InfoViewController.m in Sources */,
+				CA52DEF31AD4EC2D00F39F4D /* Categories.m in Sources */,
+				CA676ABF1AD9F5DC00852A5E /* BigColorTableViewCell.m in Sources */,
 				CACBE7C31ABE3C76006F8B3A /* IntroViewController.m in Sources */,
+				CAFDEC3D1ADCE29600E44D79 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				CA6E1D641AD874D9006A097A /* ReminderViewController.m in Sources */,
+				CA6771031AD381BB001F11A3 /* JVFloatLabeledTextView.m in Sources */,
 				CA6BF9E41AB146B3005DCCEF /* AppDelegate.m in Sources */,
+				CADFDE2D1ACFB802002F7218 /* VoiceTableViewCell.m in Sources */,
+				CAFDEC401ADCE29600E44D79 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				CA52DEE91AD4CD2E00F39F4D /* CategoryViewController.m in Sources */,
 				CAEC66201ABBC3CF00405094 /* SCSiriWaveformView.m in Sources */,
+				CA676AC31AD9F64300852A5E /* ColorsTableViewController.m in Sources */,
+				CAD042671AD725F600985AE1 /* THDatePickerViewController.m in Sources */,
+				CAD042651AD725F600985AE1 /* THDateDay.m in Sources */,
+				CA2461BC1AD0DB4C00B38F88 /* PictureTableViewCell.m in Sources */,
+				CA52DF111AD4EC6800F39F4D /* TimeViewController.m in Sources */,
+				CADFDE381ACFB9EC002F7218 /* SYWaveformPlayerView.m in Sources */,
 				CAEC66401ABCE38600405094 /* PBJFocusView.m in Sources */,
 				CA6BF9E11AB146B3005DCCEF /* main.m in Sources */,
+				CACABF661AD244F200580AD4 /* JTSImageViewController.m in Sources */,
+				CACABF6B1AD244F200580AD4 /* UIApplication+JTSImageViewController.m in Sources */,
+				CAD0426B1AD726CB00985AE1 /* KPTimePicker.m in Sources */,
+				CAFDEC3F1ADCE29600E44D79 /* TPKeyboardAvoidingTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
