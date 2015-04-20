@@ -1,0 +1,68 @@
+PODS:
+  - AKPickerView (0.2.4)
+  - AMScrollingNavbar (1.3.4)
+  - AMWaveTransition (0.5.6)
+  - ASMediaFocusManager (0.3)
+  - CWStatusBarNotification (2.2.2)
+  - DBCamera (2.3.14):
+    - GPUImage (~> 0.1)
+  - FCVerticalMenu (0.1.3)
+  - GPUImage (0.1.6)
+  - KNSemiModalViewController (0.3)
+  - PBJVision (0.4.0)
+  - pop (1.0.7)
+  - PopMenu (2.1):
+    - pop
+    - XHRealTimeBlur
+  - RMStepsController (1.0.2)
+  - RQShineLabel (0.1.3)
+  - SACollectionViewVerticalScalingFlowLayout (1.0.0)
+  - Shimmer (1.0.2)
+  - SKPanoramaView (0.1.1)
+  - TOMSMorphingLabel (0.5.1)
+  - VBFPopFlatButton (0.0.6):
+    - pop
+  - XHRealTimeBlur (1.7)
+
+DEPENDENCIES:
+  - AKPickerView
+  - AMScrollingNavbar
+  - AMWaveTransition
+  - ASMediaFocusManager
+  - CWStatusBarNotification
+  - DBCamera
+  - FCVerticalMenu
+  - KNSemiModalViewController
+  - PBJVision
+  - PopMenu
+  - RMStepsController
+  - RQShineLabel
+  - SACollectionViewVerticalScalingFlowLayout
+  - Shimmer
+  - SKPanoramaView
+  - TOMSMorphingLabel
+  - VBFPopFlatButton
+
+SPEC CHECKSUMS:
+  AKPickerView: 839064418c8774f17ed18e85418919708a266916
+  AMScrollingNavbar: 3318f0cc0fd24c972d5e8c84112edcfe61529506
+  AMWaveTransition: 9fe76a523f2ce4224289d0743b03c2ffdcfd17d0
+  ASMediaFocusManager: 9d9532191bbc6c00af6e3bed8ca63abd84ee4690
+  CWStatusBarNotification: 8d21a6db7725e65f9b2e96182dd2c18116f15079
+  DBCamera: f9b7938e10fe8479a1bc4bb4a42d694e94c1ee49
+  FCVerticalMenu: 1f9d11018d78fdb5eac858fb13b7fc60d09a03ee
+  GPUImage: 4675ce4a5370ca92fcea8623b2a08b8f0c51b940
+  KNSemiModalViewController: 8c0056377714b5170c52c65977d540200405411f
+  PBJVision: aa3d9f584324e099898fb83977a815f0ecb7ba5a
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  PopMenu: 81d45a95a9c5d3939f3aa2f2c6786ae1594f54d0
+  RMStepsController: 195aa02c57ee5fea74483d0b9dcc30881ae7639d
+  RQShineLabel: ae66343d6c779a8efdf61241734ddcec5d79d351
+  SACollectionViewVerticalScalingFlowLayout: 89cb93f1410e4c403675921bf2308dca0706f0a1
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  SKPanoramaView: 2444363beef0394500010e9240d7ee8ddb154257
+  TOMSMorphingLabel: 3e88a2bf5257f8993ebc51fb3109187a0bfb2c4d
+  VBFPopFlatButton: 782344da63f104c279a857d806e065117a7e1196
+  XHRealTimeBlur: 661fadd5691ba2d349758e8fd5fbdb499ac55f8c
+
+COCOAPODS: 0.36.3
